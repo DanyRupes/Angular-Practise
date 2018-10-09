@@ -1,0 +1,21 @@
+.heroes {
+   list-style-type: none;
+   justify-content: left;
+   display: inline-flex;
+   flex-direction: column;
+   margin-top: -5px
+}
+.heroes li{
+   align-self: baseline;
+   cursor: pointer;
+}
+.badge {
+  padding-right: 5px;
+}
+
+.selected {
+  background-color: darkgray;
+  opacity: .7;
+  border: 2px solid;
+  border-color: blue;
+}
