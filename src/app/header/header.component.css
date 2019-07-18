@@ -1,0 +1,13 @@
+.headerul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .headerul li {
+    list-style-type: none;
+    background-color: aquamarine;
+    width: 10%;
+    text-align: center;
+  }
